@@ -8,41 +8,61 @@ body
 {
     font-family: 'arial',sans-serif;
     color: dimgray;
-    background-color: #bababa;
+    background-color: #d3e4e8;
 }
 
 .sidebar
 {
 	width: 20%;
     margin: 1%;
-    background-color: #cef0f2;
+    background-color: #FFFFFF;
     float: left;
+    border-radius: 5px;
 }
 
 .main
 {
 	width: 76%;
     margin: 1%;
-    background-color: #cef0f2;
+    background-color: #FFFFFF;
     float: right;
+    border-radius: 7px;
+}
+
+.hm
+{
+	color: black;
+    font-weight: bold;
+	padding: 3%;
+    font-size: 24px;
+
 }
 
 .h1
 {
-    color: #5c5c5c;
+    color: black;
     font-weight: bold;
-    padding: 5px;
+    padding: 1%;
+    font-size: 20px;
 }
 
 .h2
 {
+	font-weight: bold;
 
+}
+
+p
+{
+	margin: 0px;
+    padding: 5px 0px 0px 0px;
 }
 
 .item
 {
 	margin: auto;
   	width: 95%;
+    padding-bottom: 15px;
 }
 
 img
@@ -50,31 +70,63 @@ img
     width: 95%;
     overflow: hidden;
 }
+
+.dateinfo
+{
+	font-style: italic;
+    padding: 5px 0px 0px 0px;
+{
+
 </style>
   </head>
   <body>
       <div class="sidebar">
         <img id="photo" src="https://github.com/jkwoods/jkwoods.github.io/blob/master/pic.jpg" alt="Picture">
 
-        <div class="h1">Jess K. Woods</div>
-        <div class="item">I'm a first year graduate student at XXX, interested in XXXX.</div>
+        <div class="hm">Jess K. Woods</div>
+        <div class="item">First year graduate student at XXX, interested in XXXX.</div>
+        <div class="item">Email: jesskwoods@gmail.com</div>
+        <ul>
+              <li><a href="./cv.pdf">CV</a></li>
+              <li><a href="https://github.com/jkwoods">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/jess-woods-614722104/">LinkedIn</a></li>
+       </ul>
       </div>
     
       <div class="main">
+        
         <div class="projects">
-          <div class="h1">Projects</div>
+          <div class="h1">Research</div>
           
           <div class="item">
             <div class="h2">Programming models for fully homomorphic encryption on a supercomputer</div>
+            <div class="proj_description">
+            <p>blhldjkfldjskfljsdklfj</p>
+            <p>Mentored by <a href="https://www.olcf.ornl.gov/directory/staff-member/oscar-hernandez/">Oscar Hernandez</a> at <a href="https://www.ornl.gov">Oak Ridge National Laboratory</a></p>
+            </div>
           </div>
           
           <div class="item">
             <div class="h2">Fast protein folding on a supercomputer</div>
+                        <div class="proj_description">
+            <p>blhldjkfldjskfljsdklfj</p>
+            <p>Mentored by <a href="https://www.ornl.gov/staff-profile/ada-sedova">Ada Sedova</a> at <a href="https://www.ornl.gov">Oak Ridge National Laboratory</a></p>
+            </div>
             <ul>
               <li><a href="index.html">Paper</a></li>
-              <li><a href="publications.html">Official Repo</a></li>
+              <li><a href="publications.html">Code</a></li>
             </ul>
           </div> 
+        </div>
+      
+        <div class="education">
+          <div class="h1">Education</div>
+          <div class="item">
+          	<div class="h2">B.S., University of North Carolina at Chapel Hill, Computer Science, 2019</div>
+          </div>
+          <div class="item">
+          	<div class="h2">B.A., University of North Carolina at Chapel Hill, Studio Art, 2019</div>
+          </div>
         </div>
       
         <div class="teaching">
