@@ -1,21 +1,39 @@
-
 body
 {
     font-family: 'arial',sans-serif;
     color: dimgray;
-    background-color: #EEEEEE;
+    background-color: #bababa;
 }
 
-div.h1
+.sidebar
+{
+	width: 20%;
+    margin: 1%;
+    background-color: #cef0f2;
+    float: left;
+}
+
+.main
+{
+	width: 76%;
+    margin: 1%;
+    background-color: #cef0f2;
+    float: right;
+}
+
+.h1
 {
     color: black;
+    font-weight: bold;
+    padding: 5px;
 }
 
-h2
+.h2
 {
+
 }
 
-item
+.item
 {
 }
 
@@ -24,10 +42,4 @@ div.crop
     width: 200px;
     height: 500px;
     overflow: hidden;
-}
-
-div.crop img {
-    width: 400px;
-    height: 300px;
-    margin: -200px 0 0 -100px;
 }
