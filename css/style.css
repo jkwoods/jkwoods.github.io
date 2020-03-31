@@ -8,8 +8,7 @@ body
 
 item
 {
-    display: block;
-    border: black;
+    border: 5px solid black;
 }
 
 crop
