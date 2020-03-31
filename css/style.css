@@ -1,4 +1,17 @@
 
+body
+{
+    font-family: 'arial',sans-serif;
+    color: dimgray;
+    background-color: #EEEEEE;
+}
+
+item
+{
+    display: block;
+    border: black;
+}
+
 crop
 {
     width: 200px;
