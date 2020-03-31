@@ -6,13 +6,17 @@ body
     background-color: #EEEEEE;
 }
 
+h1
+{
+    color: black;
+}
+
+h2
+{
+}
+
 item
 {
-    width: 200px;
-    height: 150px;
-    color: red;
-    border: 5px solid black;
-    overflow: hidden;
 }
 
 crop
