@@ -12,7 +12,7 @@ body
 
 .sidebar
 {
-    width: 20%;
+	width: 20%;
     margin: 1%;
     background-color: #FFFFFF;
     float: left;
@@ -65,13 +65,17 @@ p
   	width: 95%;
     padding-bottom: 15px;
 }
-	     
+
+.education .item
+{
+	padding-bottom: 5px;
+}
+
 img
 {
     width: 100%;
     border-radius: 7px 7px 0px 0px;
-}	      
-	     
+}	
 	      
 .dateinfo
 {
@@ -128,12 +132,12 @@ li a {
   </head>
   <body>
       <div class="sidebar">
-	<div class="img_div">
+	  <div class="img_div">
         	<img id="photo" src="./pic.jpg" alt="Picture">
         </div>
         <div class="hm">Jess K. Woods</div>
-        <div class="item">First year graduate student at XXX, interested in XXXX.</div>
-        <div class="item">Email: jesskwoods@gmail.com</div>
+        <div class="item">First year graduate student in Computer Science at XXX, interested in cryptography, security, functional programming, type theory.</div>
+        <div class="item">Contact: jesskwoods (at) gmail.com</div>
         <ul>
               <li><a href="./cv.pdf">CV</a></li>
               <li><a href="https://github.com/jkwoods">GitHub</a></li>
@@ -150,13 +154,17 @@ li a {
           <div class="item">
             <div class="h2">Programming models for fully homomorphic encryption on a supercomputer</div>
             <div class="proj_description">
-            <p>blhldjkfldjskfljsdklfj</p>
-            <p>Mentored by <a href="https://www.olcf.ornl.gov/directory/staff-member/oscar-hernandez/">Oscar Hernandez</a> in the Computer Science Research Group at <a href="https://www.ornl.gov">Oak Ridge National Laboratory</a></p>
+            <p>
+Developed parallel, batched version of DGHV fully homomorphic encryption scheme with
+compressed public key for Summit supercomputer; Evaluated the programmability, performance, and portability of parallel programming in C++/OpenMP, Python/Dask, and Julia; Accepted talk at P3HPC 2020 conference
+            
+            </p>
+            <p>Advised by <a href="https://www.olcf.ornl.gov/directory/staff-member/oscar-hernandez/">Oscar Hernandez</a> in the Computer Science Research Group at <a href="https://www.ornl.gov">Oak Ridge National Laboratory</a></p>
             </div>
             <ul>
               <li><a href="https://github.com/jkwoods/FHE-DGHV">C++ Code</a></li>
               <li><a href="https://github.com/jkwoods/JuliaFHE">Julia Code</a></li>
-              <li><a href="https://github.com/jkwoods/PytonFHE">Python Code</a></li>
+              <li><a href="https://github.com/jkwoods/PythonFHE">Python Code</a></li>
               <li><a href="index.html">Poster</a></li>
               <li><a href="index.html">Technical Report</a></li>
             </ul>
@@ -164,14 +172,19 @@ li a {
           </div>
           
           <div class="item">
-            <div class="h2">Fast protein folding on a supercomputer</div>
+            <div class="h2">Fast open source protein folding</div>
             <div class="proj_description">
-            <p>blhldjkfldjskfljsdklfj</p>
-            <p>Mentored by <a href="https://www.ornl.gov/staff-profile/ada-sedova">Ada Sedova</a> with the <a href="https://cmb.ornl.gov/">Center for Molecular Biophysics</a> at <a href="https://www.ornl.gov">Oak Ridge National Laboratory</a></p>
+            <p>
+            
+Developed fast GPU-based protein folding simulations that run from only a protein sequence and set of restraints, first ever open source program of this kind
+
+            </p>
+            <p>Advised by <a href="https://www.ornl.gov/staff-profile/ada-sedova">Ada Sedova</a> with the <a href="https://cmb.ornl.gov/">Center for Molecular Biophysics</a> at <a href="https://www.ornl.gov">Oak Ridge National Laboratory</a></p>
             </div>
             <ul>
               <li><a href="index.html">Paper</a></li>
-              <li><a href="https://github.com/jkwoods/ExaFold">Code</a></li>
+              <li><a href="https://github.com/jkwoods/ExaFold">Final Code</a></li>
+              <li><a href="https://github.com/jkwoods/ProteinFoldingPipeline">Proof of Concept Script</a></li>
             </ul>
           </div> 
           <p class="inv">.</p>
