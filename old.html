@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Jess Woods</title>
+      <style>
+body
+{
+    font-family: 'arial',sans-serif;
+    color: dimgray;
+    background-color: #d3e4e8;
+}
+.sidebar
+{
+    width: 19%;
+    margin: 1%;
+    padding: 4px;
+    background-color: #FFFFFF;
+    float: left;
+    border-radius: 7px;
+}
+
+.main
+{
+	width: 76%;
+    margin: 1%;
+    background-color: #FFFFFF;
+    float: right;
+    border-radius: 7px;
+}
+
+.hm
+{
+	color: black;
+    font-weight: bold;
+	padding: 3%;
+    font-size: 24px;
+
+}
+
+.h1
+{
+    color: black;
+    font-weight: bold;
+    padding: 1%;
+    padding-top: 10px;
+    font-size: 20px;
+    clear:both; 
+}
+
+.h2
+{
+	font-weight: bold;
+	clear:both; 
+}
+
+p
+{
+	margin: 0px;
+    padding: 5px 0px 0px 0px;
+}
+
+.item
+{
+	margin: auto;
+  	width: 95%;
+    	padding-bottom: 20px;
+}
+	      
+#ed1
+{	      
+	padding-bottom: 5px;
+}
+	      
+img
+{
+    width: 100%;
+    border-radius: 10%;
+}
+	      
+.img_div
+{
+	padding: 10px;
+	max-width: 375px;
+	overflow: hidden;
+}
+	      
+.dateinfo
+{
+	font-style: italic;
+    padding: 5px 0px 0px 0px;
+}
+	      
+.paperlisting
+{
+    padding: 2px 0px 0px 0px;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+}
+
+
+li
+{
+	float: left;
+    padding: 5px 10px 5px 10px;
+    background-color: #d3e4e8;
+    text-align: center;
+    margin: 2px;
+    border-radius: 7px;
+}
+
+li:hover {
+  	background-color: darkgrey;
+}
+
+li a {
+  	text-decoration: none;
+    color: dimgray;
+}
+
+.inv
+{
+	color: white;
+}
+
+.sidebar ul
+{
+	padding: 1%;
+}
+
+.help
+{
+	color: white;
+    clear:both; 
+    padding-bottom: 5px;
+}
+
+
+</style>
+  </head>
+  <body>
+      <div class="sidebar">
+	  <div class="img_div">
+        	<img id="photo" src="./formal.png" alt="Picture">
+        </div>
+        <div class="hm">Jess Woods</div>
+        <div class="item">Graduate student in Computer and Information Science; Advised by <a href="https://www.cis.upenn.edu/~sga001/">Sebastian Angel</a> in the <a href="https://dsl.cis.upenn.edu/">Distributed Systems Laboratory</a> at the University of Pennsylvania</div>
+        <div class="item">I'm interested in security, cryptography, and programming languages. I'm also passionate about math/computer science education.</div>
+	<div class="item">Contact: woodsjk (at) seas.upenn.edu</div>
+        <ul>
+              <li><a href="https://github.com/jkwoods">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/jess-woods-614722104/">LinkedIn</a></li>
+	      <li><a href="./Stripped_CV.pdf">CV</a></li>
+       </ul>
+       <div class="help"></div>
+      </div>
+    
+      <div class="main">
+        
+        <div class="projects">
+          <div class="h1">Past Research Projects</div>
+           
+          <div class="item">
+            <div class="h2">Programming models for fully homomorphic encryption on a supercomputer</div>
+            <div class="proj_description">
+            <p>
+Developed parallel, batched version of DGHV fully homomorphic encryption scheme with
+compressed public key for Summit supercomputer; Evaluated the programmability, performance, and portability of parallel programming in C++/OpenMP, Python/Dask, and Julia
+            
+            </p>
+            <p>Advised by <a href="https://www.olcf.ornl.gov/directory/staff-member/oscar-hernandez/">Oscar Hernandez</a> in the <a href="https://csmd.ornl.gov/group/computer-science-research">Computer Science Research Group</a> at <a href="https://www.ornl.gov">Oak Ridge National Laboratory</a></p>
+            </div>
+            <ul>
+              <li><a href="https://github.com/jkwoods/FHE-DGHV">C++ Code</a></li>
+              <li><a href="https://github.com/jkwoods/JuliaFHE">Julia Code</a></li>
+              <li><a href="https://github.com/jkwoods/PythonFHE">Python Code</a></li>
+              <li><a href="./First_Half_Poster.pdf">ORNL Poster</a></li>
+              <li><a href="./internal_tech_reports.pdf">ORNL Technical Reports</a></li>
+	      <li><a href="./Woods_IGNITE.pdf">Ignite Slides</a></li>    
+	      <li><a href="./Dask_Presentation.pdf">Dask Slides</a></li>
+            </ul>
+           <p class="inv">.</p>
+          </div>
+          
+          <div class="item">
+            <div class="h2">Fast open source protein folding</div>
+            <div class="proj_description">
+            <p>
+            
+Developed fast GPU-based protein folding simulations that run from only a protein sequence and set of restraints, first ever open source program of this kind
+
+            </p>
+            <p>Advised by <a href="https://www.ornl.gov/staff-profile/ada-sedova">Ada Sedova</a> with the <a href="https://cmb.ornl.gov/">Center for Molecular Biophysics</a> at <a href="https://www.ornl.gov">Oak Ridge National Laboratory</a></p>
+            </div>
+            <ul>
+              <li><a href="https://github.com/jkwoods/ExaFold">Final Code</a></li>
+              <li><a href="https://github.com/jkwoods/ProteinFoldingPipeline">Proof of Concept</a></li>
+            </ul>
+          </div> 
+          <p class="inv">.</p>
+        </div>
+	      
+        <div class="pubs">
+          <div class="h1">Publications</div>
+	  <div class="item">
+          	<div class="paperlisting"><a href="https://dl.acm.org/doi/abs/10.1145/3459930.3469510"><i>Modeling protein structures from predicted contacts with modern molecular dynamics potentials: accuracy, sensitivity, and refinement,</i></a> Russell B. Davidson, Mathialakan Thavappiragasam, T. Chad Effler, Jess Woods, Dwayne Elias, Jerry M. Parks, Ada Sedova, ACM-BCB, 2021</div>
+	 
+	  </div>
+        </div>
+	  
+	<div class="pubs">
+          <div class="h1">Workshops/Presentations</div>
+	  <div class="item">
+          	<div class="paperlisting"><a href="./Python_HPC_Whitepaper.pdf"><i>Using Python for Improved Productivity in HPC and Data Science Applications: the Time is Now,</i></a>  Jess Woods, Matthew Baker, Mathialakan Thavappiragasam, Ada Sedova, Oscar Hernandez, and Vivek Sarkar, <a href=https://collegeville.github.io/CW20/WorkshopResources/WhitePapers/WhitePaperList.html>Collegeville Workshop</a>, 2020</div>
+	  </div>
+          <div class="item">
+          	<div class="paperlisting"><a href="./p3HPC_talk.pdf"><i>Performance and portability of abstract algebra operations in C++, Python, and Julia,</i></a> Jess Woods, Ada Sedova and Oscar Hernandez, Talk at <a href=https://p3hpcforum2020.alcf.anl.gov/>P3HPC</a>, 2020</div>
+          </div>
+        </div>
+	      
+        <div class="education">
+          <div class="h1">Education</div>
+	  <div class="item">
+          	<div class="h2">Graduate Courses</div>
+		  <p>Software Foundations, Analysis of Algorithms, Theory of Computation, Operating System Design and Implementation, Computer-Aided Verification, Cryptography, Computer and Network Security, Advanced Topics in Cryptography, Advanced Topics in Privacy and Anonymity</p>
+          </div>
+          <div class="item" id="ed1">
+          	<div class="h2">BS, University of North Carolina at Chapel Hill, Computer Science, 2019</div>
+          </div>
+          <div class="item">
+          	<div class="h2">BA, University of North Carolina at Chapel Hill, Studio Art, 2019</div>
+          </div>
+        </div>
+      
+        <div class="teaching">
+          <div class="h1">Teaching</div>
+          
+	  <div class="item">
+            <div class="h2">Computer and Network Security, Fall 2021</div>
+            <div class="dateinfo">Head Teaching Assistant, UPenn</div>
+          </div> 
+		
+	  <div class="item">
+            <div class="h2">High School Java, Summer 2021</div>
+            <div class="dateinfo">Master Teacher at Steppingstone Scholars, Philadelphia, PA</div>
+          </div> 
+	
+          <div class="item">
+            <div class="h2">Discrete Structures, Fall 2018 & Spring 2019</div>
+            <div class="dateinfo">Teaching Assistant, UNC</div>
+          </div> 
+          
+          <div class="item">
+            <div class="h2">K-12 Math, Summer 2018</div>
+            <div class="dateinfo">Instructor at Reading Writing Arithmetic Center, Chapel Hill, NC</div>
+          </div> 
+            
+        </div>
+	
+	<div class="other">
+          <div class="h1">Miscellaneous</div>
+          
+          <div class="item">
+            <p>I hail from the Appalachian Mountains. In my free time, I like running, drawing, and painting. I also program text-based choose-your-own-adventure games.</p>
+          </div> 
+            
+        </div>
+      
+     </div>
+  </body>
+
+</html>
