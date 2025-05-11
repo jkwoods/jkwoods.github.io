@@ -106,6 +106,9 @@ text-decoration: none;
 color: var(--link-color);
 font-weight: bold;
 }
+h2 {
+  color: var(--link-color);
+}
 .di
 {
 font-size: 20px;
