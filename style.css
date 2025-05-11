@@ -8,7 +8,7 @@
           }
 body
 {
-    font-family: 'arial',sans-serif;
+    font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: var(--text-color);
     background-color: var(--bg-color);
     font-size: 14px;
@@ -107,5 +107,11 @@ a {
 text-decoration: none;
 color: var(--link-color);
 font-weight: bold;
+}
+.di
+{
+  text-align: center;
+  padding: 7px;
+  width: 88%;
 }
 
