@@ -17,15 +17,16 @@ body
 {
 /*    max-width: 750px; t r b l */ 
     max-width: 1000px;
-margin: auto;
+    margin: auto;
   
 }
 .content
 {
-  border-radius: 7px;
+    border-radius: 7px;
     background-color: var(--ct-color);
-    margin: 40px 20px 20px 230px;
+    margin: 40px 20px 20px 280px;
     padding: 30px;
+    min-width: 300px;
 }
 img
 {
@@ -37,13 +38,13 @@ img
 .img_div
 {
   border-radius: 7px;
-	width: 80%;
+	width: 88%;
   margin: 5px 0px 5px 0px;
 }
 .sidenav
 {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 200px; /* Set the width of the sidebar */
+  width: 250px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -55,13 +56,13 @@ img
 }
 .sidenav a {
   border-radius: 7px;
-  width: 80%;
-  padding: 2px 0px 2px 0px;
+  width: 90%;
+  padding: 4px 0px 4px 0px;
   margin: 2px 0px 0px 0px;
   text-decoration: none;
- background-color: var(--ct-color);
+  background-color: var(--ct-color);
   text-align: center;
-  font-size: 15px;
+  font-size: 17px;
   color: var(--text-color);
   display: block;
 }
@@ -70,10 +71,6 @@ img
 }
 .content a:hover {
   color: var(--hv-color);
-}
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav a {font-size: 18px;}
 }
 .subsec
 {
